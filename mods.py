@@ -14,18 +14,9 @@ def main():
     modsArr = os.listdir(mods)
     for mod in modsArr:
       shutil.move((mods + mod), r"C:\Users\{}\Zomboid\mods".format(user))
-      print("Se ha movido: {}".format(mod))
-  print(""" ya quedo joto
-  .
-  __._
-  _(_|_)
-  __|=|
-  __|=|
-  __|=|__
-  (''####')
-  """)
+      print("Moved: {}".format(mod))
 
-  exit = input("Presiona cualquier tecla puto")
+  exit = input("FINISH... Press any key...")
 
 if __name__ == '__main__':
   main()
